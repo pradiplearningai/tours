@@ -33,6 +33,13 @@ img{
     width: 200px;
     flex-shrink: 0;
 }
+.innerbox img{
+    cursor: pointer;
+    transition: 1s;
+}
+.innerbox img:hover{
+    transform: scale(0.8);
+}
 h3{
     text-align: center;
     color: white;
