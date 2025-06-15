@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  body{
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/28/20/39/sky-1286888_1280.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+h1{
+    text-align: center;
+    padding: 20px;
+    color: darkred;
+}
+h2,p{
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.flexbox img{
+    height: 150px;
+    object-fit: cover;
+}
+.flexbox{
+    display: flex;
+    gap:5px;
+    overflow-x: scroll;
+}
+.innerbox{
+    width: 200px;
+    flex-shrink: 0;
+}
+h3{
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    margin:5px 0px;
+}
+.buttonbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.buttonbox button{
+    padding: 5px 10px;
+    background-color: rgb(2, 73, 1);
+}
+#slides{
+    height: 50vh;
+    object-fit: cover;
+}
